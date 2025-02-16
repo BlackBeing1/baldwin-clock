@@ -23,7 +23,7 @@ function updateClock() {
 
 // Function to fetch news and analyze urgency
 async function fetchNews() {
-    const API_URL = "https://newsapi.org/v2/top-headlines?country=us&apiKey=YOUR_NEWSAPI_KEY";
+    const API_URL = "https://newsapi.org/v2/top-headlines?country=us&apiKey=f4a2df548827422e9db14cb901566da7";
     
     try {
         let response = await fetch(API_URL);
